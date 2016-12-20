@@ -2,6 +2,9 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use hello\Hi ;
+use Hello\Bye;
+use Hello\Hi;
 
-echo Hi::some("World");
+$a = Hi::some("World");
+echo $a ;
+echo Bye::say();

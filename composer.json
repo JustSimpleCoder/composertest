@@ -1,0 +1,13 @@
+{
+    "name": "justsimplecder/hi",
+    "description": "test hi",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "hello": "src/"
+        }
+    }
+}
